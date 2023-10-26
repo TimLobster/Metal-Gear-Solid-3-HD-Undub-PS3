@@ -123,7 +123,7 @@ if __name__ == "__main__":
         output_folder = "./output/"
     print()
 
-    print("Copying Japanse Audio Over US Audio")
+    print("Copying Japanese Audio Over US Audio")
     print(f"{japanese_folder} and {us_folder} to {output_folder}")
     
     copy_over_directory(japanese_folder, us_folder, output_folder)
